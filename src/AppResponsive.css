@@ -1,0 +1,5 @@
+@media screen and (max-width: 680px) {
+    .to-do-card {
+        width: 420px;
+    }
+}
