@@ -35,7 +35,7 @@ class App extends React.Component {
 
     const newItem = this.state.currentItem;
     
-    if(newItem !== "") {
+    if(newItem.text !== "") {
       const addedItem = [...this.state.items, newItem];
       this.setState({
         items: addedItem,
